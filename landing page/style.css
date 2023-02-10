@@ -1,0 +1,162 @@
+h1 {
+	color: ghostwhite;
+	font-size: 60px;
+	font-family: 'Rubik', sans-serif;
+	<div style= position:revert-layer; height:400px">
+}
+
+h2 {    
+	color: ghostwhite ;
+	font-size: 20px;
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+h3 {    
+	color: black ;
+	font-size: 30px;
+	font-family: 'Aldrich', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	color: rgd(255, 255, 255);	/*white*/
+	background-color: #ffffff;	/*white*/
+}
+
+*{	
+	margin-right: 50px;
+	padding-right: 0px;
+	font-family: 'Rubik', sans-serif;
+}
+
+nav{
+	width: 1470px;
+	float: interactif;
+	margin: -20px;
+	background-color:floralwhite;
+	position: sticky;
+	top: 0px;
+	font-family: 'Rubik', sans-serif;
+	height:50px
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+nav ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	color: orangered;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+
+nav a:hover{
+	color: orange;
+	border-bottom: 2px solid gold;
+}
+
+.sous{
+	display: none;
+	box-shadow: 0px 1px 2px #CCC;
+	background-color: white;
+}
+nav > ul li:hover .sous{
+	display:block;
+}
+
+.sous li{
+	float: none;
+	width: 100px;
+	text-align: left;
+}
+
+.sous a{
+	padding: 10px;
+	border-bottom: none;
+}
+
+.sous a:hover{
+	border-bottom: none;
+	background-color: rgd(200,200,200,0.1); 
+}
+
+.deroulant > a::after{
+	font-size: 12px;
+}
+
+.conteneur{
+	margin: 70px 20px;
+	height: 1900px;
+}
+
+.sous{
+	display: none;
+	box-shadow: 0px 1px 2px #CCC;
+	background-color: antiquewhite;
+	position: auto;
+	width: 100%;
+	z-index: 1000;
+}
+
+nav ul li{
+	float: left;
+	width: 15%;
+	text-align: auto;
+	position: auto;
+}
+
+.styled {
+    border: 0;
+    line-height: 3.5;
+    padding: 0 50px;
+    font-size: 1.5rem;
+    text-align: absolute;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 30px;
+    background-color: white;
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    font-family: 'Rubik', sans-serif;
+}
+
+.styled:hover {
+    background-color: floralwhite;
+}
+
+.styled:active {
+    box-shadow: inset 5px 7px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+element.style{
+	background: whitesmoke;
+	padding: 90px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+}
+
+
+element.style{
+	background: whitesmoke;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+}
